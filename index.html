@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autocar Dashboard</title>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <img src="./assets/pngwing.com (3).png" alt="">
+      <h1>Cars</h1>
+    </div>
+
+    <nav>
+      <a class="active"><i data-feather="grid"></i>Dashboard</a>
+      <a><i data-feather="user"></i>Assets</a>
+      <a><i data-feather="truck"></i>Booking</a>
+      <a><i data-feather="shopping-cart"></i>Buy Cars</a>
+      <a><i data-feather="calendar"></i>Calendar</a>
+    </nav>
+
+    <div class="bottom-links">
+      <a><i data-feather="settings"></i>Settings</a>
+      <a><i data-feather="log-out"></i>Logout</a>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <input type="text" placeholder="Search">
+      <div class="profile">
+        <i class="fa-regular fa-bell"></i>
+        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+      </div>
+    </div>
+
+    <!-- Welcome -->
+    <section class="welcome">
+      <h2>Welcome back, Max</h2>
+      <p>Here’s what’s happening today.</p>
+    </section>
+
+    <!-- Featured -->
+    <section class="featured">
+      <h3>2025 Mini Cooper</h3>
+
+      <div class="featured-images">
+        <img src="./assets/images.jpeg">
+        <img src="./assets/download.jpeg">
+      </div>
+    </section>
+
+    <!-- Cards -->
+    <section class="cards">
+      <div class="card purple">
+        <h4>Suzuki Ertiga</h4>
+        <img src="./assets/pngwing.com (1).png">
+        <span>$400/day</span>
+      </div>
+
+      <div class="card pink">
+        <h4>Swift Dezire</h4>
+        <img src="./assets/pngwing.com.png">
+        <span>$400/day</span>
+      </div>
+
+      <div class="card yellow">
+        <h4>Innova Crysta</h4>
+        <img src="./assets/pngwing.com (2).png">
+        <span>$400/day</span>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script>
+  feather.replace();
+</script>
+
+</body>
+</html>
